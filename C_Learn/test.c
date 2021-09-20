@@ -7,6 +7,7 @@ int main()
     int *p = function(array);
     printf("%d", sizeof(p));
     printf("hello");
+    printf("hello,world");
     system("pause");
     return 0;
 }
