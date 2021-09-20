@@ -6,8 +6,8 @@ int main()
     int array[5] = {1, 2, 3, 4, 5};
     int *p = function(array);
     printf("%d", sizeof(p));
+    printf("hello");
     system("pause");
-
     return 0;
 }
 int *function(int array[])
