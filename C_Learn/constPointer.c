@@ -15,6 +15,7 @@ int main(int argc, char const *argv[])
     int *const q = &a;
     *q = 34;
     printf("%d", *q);
+
     system("pause");
     return 0;
 }
